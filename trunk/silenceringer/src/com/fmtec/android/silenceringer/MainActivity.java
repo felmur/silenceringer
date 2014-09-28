@@ -1,3 +1,20 @@
+/*
+ * SilenceRinger
+ * (c) 2014 by Felice Murolo
+ * Salerno - Italy
+ * eMail: linuxboy@fel.hopto.org
+ * 
+ * Released under LGPL License
+ * See here for details: http://www.gnu.org/licenses/lgpl-3.0.txt
+ * 
+ * This code shows how to mute the phone when you receive a call 
+ * from someone who is not in the contact list.
+ * The code does not just turn off the sound and vibration when
+ * a call comes in, but takes account of any audio configuration
+ * different from the default, saving values ​​of sound and
+ * vibration prior to muting the phone.
+ *  
+ */
 package com.fmtec.android.silenceringer;
 
 import android.os.Bundle;
@@ -7,7 +24,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
-import android.widget.Toast;
 import android.widget.ToggleButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 
